@@ -1,0 +1,29 @@
+Package: map-lines
+Section: files
+License: GPL-2+
+Depends: emacs (>= 21)
+Status:
+Compat:
+Maintainer:
+Email: Paul Hobbs <Paul_Hobbs@hmc.edu>
+Bugs:
+Vcs-Type: http
+Vcs-Url: https://alioth.debian.org/scm/viewvc.php/*checkout*/emacs-goodies-el/elisp/emacs-goodies-el/map-lines.el?revision=1.2&root=pkg-goodies-el
+Vcs-Args: -O map-lines.el
+Vcs-Browser: https://alioth.debian.org/scm/viewvc.php/emacs-goodies-el/elisp/emacs-goodies-el/map-lines.el?view=markup&revision=HEAD&root=pkg-goodies-el
+Vcs-User:
+Vcs-Password:
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/RunCommandOverLines
+Description: Map a command over many lines
+ Provides commands M-x map-lines-kill to kill each line matching
+ regex, M-x map-lines-copy to Copy each line matching regex and M-x
+ copy-line to Copy the current line.
+ .
+ Use case: filter out the files you want to operate on using
+ map-lines-kill, or grab those you want using map-lines-copy. Then,
+ paste into a buffer and use keyboard macros and/or rectangles
+ to form the commands you want to run on each file, and to execute
+ each command e.g. with M-!.
+ .
+ Originally written 2002 by Andreas Fuchs <asf@void.at>
