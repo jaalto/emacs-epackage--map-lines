@@ -1,7 +1,7 @@
 ;;; map-lines.el --- Map a command over many lines
 
 ;; Copyright (C) 2002  Andreas Fuchs 
-;; Copyright (C) 2010  Paul Hobbs <paul mcdill hobbs atsign gmail>
+;; Copyright (C) 2010  Paul Hobbs <paul . mcdill . hobbs atsign gmail>
 
 ;; Author: Andreas Fuchs 
 ;; Maintainer: Paul Hobbs
