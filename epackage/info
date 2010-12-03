@@ -15,7 +15,7 @@ Vcs-User:
 Vcs-Password:
 Homepage:
 Wiki: http://www.emacswiki.org/emacs/RunCommandOverLines
-Description: Map a command over many lines
+Description: map a command over many lines
  Provides commands M-x map-lines-kill to kill each line matching
  regex, M-x map-lines-copy to Copy each line matching regex and M-x
  copy-line to Copy the current line.
