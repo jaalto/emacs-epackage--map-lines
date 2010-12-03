@@ -2,7 +2,7 @@ Package: map-lines
 Section: files
 License: GPL-2+
 Depends: emacs (>= 21)
-Status:
+Status: unsafe
 Compat:
 Maintainer:
 Email: Paul Hobbs <Paul_Hobbs@hmc.edu>
@@ -26,4 +26,4 @@ Description: Map a command over many lines
  to form the commands you want to run on each file, and to execute
  each command e.g. with M-!.
  .
- Originally written 2002 by Andreas Fuchs <asf@void.at>
+ Originally written 2002 by Andreas Fuchs <asf@void.at>.
