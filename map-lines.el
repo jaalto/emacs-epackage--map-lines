@@ -1,10 +1,10 @@
 ;;; map-lines.el --- Map a command over many lines
 
-;; Copyright (C) 2002  Andreas Fuchs <asf@void.at>
-;; Copyright (C) 2010  Paul Hobbs <Paul_Hobbs@hmc.edu>
+;; Copyright (C) 2002  Andreas Fuchs 
+;; Copyright (C) 2010  Paul Hobbs <paul . mcdill . hobbs atsign gmail>
 
-;; Author: Andreas Fuchs <asf@void.at>
-;; Maintainer: Paul Hobbs <Paul_Hobbs@hmc.edu>
+;; Author: Andreas Fuchs 
+;; Maintainer: Paul Hobbs
 ;; Keywords: matching, files
 
 ;; This file is free software; you can redistribute it and/or modify
@@ -25,12 +25,13 @@
 ;;; Commentary:
 
 ;; ------------------------------ TYPICAL USE ------------------------------
-;; This module allows you to map a command over a set of lines
-;; matching a regex.  The trick: You can then go ahead and insert these
-;; lines in one clean yank.
+;; This module allows you to map a command over a set of lines matching a regex.
+;; The trick: You can then go ahead and insert these lines in one clean yank.
+;; The set of lines is either region or buffer, depending on whether the region
+;; is active.
 ;;
 ;; Example text:
-;; 
+;;
 ;;     Hello,
 ;;     Here are the requested documents:
 ;;     a.txt
@@ -39,7 +40,7 @@
 ;;     Also, I have included the following:
 ;;     license.txt
 ;;
-;; Running M-x map-lines-copy-regex ".txt" will give you
+;; Running M-x map-lines-copy ".txt" will give you
 ;;     a.txt
 ;;     b.txt
 ;;     c.txt
@@ -55,7 +56,7 @@
 ;; To use this module, put this file somewhere in your load-path and this into
 ;; your .emacs:
 ;; (load-library "map-lines")
-;; 
+;;
 ;; Alternatively, you can autoload the functions one at a time, which will
 ;; reduce your Emacs start-up time and typical RAM usage (slightly):
 ;;     (autoload 'map-lines "map-lines"
@@ -68,7 +69,7 @@
 ;;     (global-set-key (kbd "C-c m l") 'map-lines)
 ;;     (global-set-key (kbd "C-c m k") 'map-lines-kill)
 ;;     (global-set-key (kbd "C-c m c") 'map-lines-copy)
-;;     (global-set-key (kbd "C-x c")
+;;     (global-set-key (kbd "C-x c")   'copy-line)
 ;;
 ;; ... or your own key combinations as you see fit.
 
@@ -78,7 +79,7 @@
 ;; You can find the latest version of this module in the debian package
 ;; emacs-goodies-el.  If you want to see new features, feel free to add them and
 ;; email the maintainer of this package.
-;; 
+;;
 ;;; History:
 ;;
 ;; Version 0.2
