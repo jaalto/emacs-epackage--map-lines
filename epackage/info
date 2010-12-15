@@ -4,7 +4,7 @@ License: GPL-2+
 Depends: emacs (>= 21)
 Status: unsafe
 Compat:
-Maintainer:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
 Email: Paul Hobbs <Paul_Hobbs@hmc.edu>
 Bugs:
 Vcs-Type: git
@@ -16,6 +16,7 @@ Wiki: http://www.emacswiki.org/emacs/RunCommandOverLines
 X-Vcs-Url-Debian: https://alioth.debian.org/scm/viewvc.php/*checkout*/emacs-goodies-el/elisp/emacs-goodies-el/map-lines.el?revision=1.2&root=pkg-goodies-el
 X-Vcs-Args-Debian: -O map-lines.el
 X-Vcs-Browser-Debian: https://alioth.debian.org/scm/viewvc.php/emacs-goodies-el/elisp/emacs-goodies-el/map-lines.el?view=markup&revision=HEAD&root=pkg-goodies-el
+Commentary:
 Description: map a command over many lines
  Provides commands M-x map-lines-kill to kill each line matching
  regex, M-x map-lines-copy to Copy each line matching regex and M-x
