@@ -5,8 +5,9 @@ Depends: emacs (>= 21)
 Status: unsafe
 Compat:
 Maintainer: Jari Aalto <jari.aalto@cante.net>
-Email: Paul Hobbs <Paul_Hobbs@hmc.edu>
 Bugs:
+Upstream: Paul Hobbs <Paul_Hobbs@hmc.edu>
+Upstream-Bugs:
 Vcs-Type: git
 Vcs-Url: https://github.com/PaulHobbs/Map-lines.git
 Vcs-User:
