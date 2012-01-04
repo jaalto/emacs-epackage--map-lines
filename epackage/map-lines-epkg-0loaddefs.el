@@ -1,7 +1,6 @@
-(provice 'map-lines-epkg-0loaddefs)
-
+
 ;;;### (autoloads (map-lines-copy map-lines-kill copy-line map-lines)
-;;;;;;  "map-lines" "map-lines.el" (19705 13200))
+;;;;;;  "../map-lines" "../map-lines.el" (20185 25710))
 ;;; Generated autoloads from map-lines.el
 
 (autoload 'map-lines "map-lines" "\
