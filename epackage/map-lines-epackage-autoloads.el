@@ -6,4 +6,4 @@
 (autoload 'mapl-kill-universal                  "map-lines" "" nil)
 (autoload 'map-lines-kill                       "map-lines" "" t)
 (autoload 'map-lines-copy                       "map-lines" "" t)
-(provide 'map-lines-epkg-autoloads)
+(provide 'map-lines-epackage-autoloads)
